@@ -6,9 +6,11 @@ Welcome to the **C++ Code Example** repository! This collection contains various
 - [About the Repository](#about-the-repository)
 - [Prerequisites](#prerequisites)
 - [Folder Structure](#folder-structure)
-- [How to Use](#how-to-use)
+- [Building and Running](#building-and-running)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Support](#support)
 
 ## About the Repository
 
@@ -37,3 +39,49 @@ The repository is organized into several folders to make it easier to find speci
 /algorithms/          -> Examples of algorithms (sorting, searching, etc.)
 /object_oriented/     -> Object-Oriented Programming concepts (classes, inheritance, polymorphism)
 /advanced/            -> Advanced C++ concepts (templates, smart pointers, etc.)
+```
+
+## Building and Running
+
+1. Clone the repository:
+```bash
+git clone https://github.com/HeidariSina/CPP-Code-Example.git
+cd CPP-Code-Example
+```
+
+2. Navigate to specific example directory:
+```bash
+cd path/to/example
+```
+
+3. Compile and run:
+```bash
+g++ example.cpp -o example
+./example
+```
+
+## Usage
+
+Each subdirectory contains specific examples and implementations. Navigate to the relevant directory to find:
+- Source code files (.cpp)
+- Header files (.h)
+- README files with specific instructions (where applicable)
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you find this repository helpful, please consider giving it a star!
